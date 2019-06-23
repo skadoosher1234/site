@@ -1,0 +1,155 @@
+.top-panel {
+      margin: 0 auto; }
+  
+  .top-panel-inside {
+    position: relative;
+    z-index: 9; }
+
+.top-panel-inside__top {
+  background: #2c2c2c;
+  color: #989898;
+  overflow: auto;
+  padding: 0px 0 0px 0;
+  border-top: 1px solid #555555;
+  overflow: hidden;
+  height: 30px; }
+  
+  .top-panel-inside__top__inside {
+    width: 100%;
+    display: table; }
+  
+  .top-panel-inside__top__left {
+    margin: 0px 0 0 0;
+    display: table-cell;
+    vertical-align: top;
+    white-space: nowrap;
+    position: relative; }
+    
+    .top-panel-inside__top__left:after {
+      content: " ";
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      background: -moz-linear-gradient(to right, rgba(44, 44, 44, 0) 0%, #2c2c2c 100%);
+      background: -webkit-linear-gradient(to right, rgba(44, 44, 44, 0) 0%, #2c2c2c 100%);
+      background: -o-linear-gradient(to right, rgba(44, 44, 44, 0) 0%, #2c2c2c 100%);
+      background: -ms-linear-gradient(to right, rgba(44, 44, 44, 0) 0%, #2c2c2c 100%);
+      background: linear-gradient(to right, rgba(44, 44, 44, 0) 0%, #2c2c2c 100%);
+      pointer-events: none; }
+    
+    .top-panel-inside__top__left__label {
+      display: inline-block;
+      margin: 7px 10px 0 0;
+      vertical-align: top; }
+    
+    .top-panel-inside__top__left__fast-hrefs {
+      display: inline-block;
+      vertical-align: top;
+      overflow: auto;
+      white-space: nowrap; }
+    
+    .top-panel-inside__top__left ul {
+      font-weight: bold; }
+      
+      .top-panel-inside__top__left ul li {
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0px 0 0; }
+        
+        .top-panel-inside__top__left ul li:first-child a {
+          margin-left: 1px; }
+        
+        .top-panel-inside__top__left ul li:last-child {
+          margin: 0 0 0 0; }
+        
+        .top-panel-inside__top__left ul li a {
+          color: #989898;
+          text-transform: uppercase;
+          letter-spacing: 0.8px;
+          -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          display: block;
+          padding: 0px 0px 0px 0px;
+          margin: 0px 15px 0px -1px;
+          height: 30px;
+          line-height: 31px;
+          overflow: hidden; }
+          
+          .top-panel-inside__top__left ul li a div {
+            font-weight: bold; }
+          
+          .top-panel-inside__top__left ul li a.special {
+            color: #e21f37; }
+          
+          .top-panel-inside__top__left ul li a:hover {
+            color: #fff; }
+  
+  .top-panel-inside__top__right {
+    display: table-cell;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 234px;
+    text-align: right; }
+    
+    .top-panel-inside__top__right__inside {
+      padding: 3px 0 0 10px;
+      display: inline-block; }
+    
+    .top-panel-inside__top__right__label {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 7px 0 0;
+      text-transform: uppercase;
+      letter-spacing: -0.2px; }
+    
+    .top-panel-inside__top__right__courses {
+      display: inline-block;
+      vertical-align: middle; }
+      
+      .top-panel-inside__top__right__courses__item {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 17px 0 0; }
+        
+        .top-panel-inside__top__right__courses__item:last-child {
+          margin: 0 0 0 0; }
+        
+        .top-panel-inside__top__right__courses__item__icon {
+          display: inline-block;
+          vertical-align: middle;
+          color: #696969;
+          background: #d4cb92;
+          border-radius: 100px;
+          width: 24px;
+          height: 24px;
+          text-align: center;
+          line-height: 25px;
+          margin: 0 1px 0 0; }
+        
+        .top-panel-inside__top__right__courses__item__arrow {
+          display: inline-block;
+          vertical-align: middle;
+          width: 7px;
+          height: 12px;
+          margin: 0 0px; }
+          
+          .top-panel-inside__top__right__courses__item__arrow svg {
+            max-width: 6px;
+            max-height: 12px; }
+          
+          .top-panel-inside__top__right__courses__item__arrow.up svg:first-child {
+            display: none; }
+          
+          .top-panel-inside__top__right__courses__item__arrow.up svg:last-child {
+            display: inline-block; }
+          .top-panel-inside__top__right__courses__item__arrow.down svg:first-child {
+            display: inline-block; }
+          .top-panel-inside__top__right__courses__item__arrow.down svg:last-child {
+            display: none; }
+        .top-panel-inside__top__right__courses__item__number {
+          display: inline-block;
+          vertical-align: middle;
+          color: #fff; }
